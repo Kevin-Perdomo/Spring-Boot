@@ -1,0 +1,18 @@
+./mvnw package -DskipTests && java -jar target/spring-boot-docker-0.0.1-SNAPSHOT.jar
+
+
+//Primeiro build
+./mvnw package -DskipTests
+
+//Roda o spring boot
+java -jar target/spring-boot-docker-0.0.1-SNAPSHOT.jar
+
+
+//spring-boot-starter-security
+
+login: user
+password: esta no terminal
+
+Container:
+docker build -t springio/spring-boot-docker .
+docker run -p 8080:8080 springio/spring-boot-docker
