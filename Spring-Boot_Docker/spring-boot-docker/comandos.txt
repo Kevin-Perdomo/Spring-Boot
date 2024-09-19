@@ -21,3 +21,5 @@ password: senha no terminal
 #Rodando Container:
 docker build -t springio/spring-boot-docker .
 docker run -p 8080:8080 springio/spring-boot-docker
+docker stop <container_id_or_name> OR ctrl+c
+
