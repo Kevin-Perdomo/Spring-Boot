@@ -1,7 +1,7 @@
 # Spring Boot Project
 
 
-![Spring Boot](https://camo.githubusercontent.com/f6fb26998002a1373e74fd301b132eaceaf86ecf3c4f80c67721dddc1f299abb/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f3731362f312a6a4d51396c6b593553426e62634f6c4a423461697a672e706e67)
+![Spring Boot](https://cdn.jsdelivr.net/gh/springcloud-community/image-bucket/2022/09/19/9f7a100756014b7da2fff823df64c5d2.png)
 
 
 ## Descrição
@@ -12,15 +12,15 @@ Este é um projeto de exemplo criado com Spring Boot. O objetivo é demonstrar a
 
 ## Requisitos
 
-- JDK 22 ou superior
-- Maven 3.8.7 ou superior
+- Java JDK 22 ou superior
+- Apache Maven 3.8.7 ou superior
 - Docker (opcional, para execução em contêineres)
   
 ---
 
-# Instalação do Java JDK 22 e Maven 3.8.7 no Linux
+# Instalação do Java JDK 22 e Apache Maven 3.8.7 no Linux
 
-Este guia fornece instruções para baixar e instalar o Java JDK 22 e o Maven 3.8.7 em sistemas Linux. 
+Este guia fornece instruções para baixar e instalar o Java JDK 22 e o Apache Maven 3.8.7 em sistemas Linux. 
 
 Para instalar o Java JDK 22, comece baixando o arquivo binário com o comando:  
    ```bash
@@ -49,7 +49,7 @@ Verifique a instalação executando:
 `java -version`.  
    ```
 
-Para instalar o Maven 3.8.7, comece baixando o arquivo binário usando o comando:  
+Para instalar o Apache Maven 3.8.7, comece baixando o arquivo binário usando o comando:  
    ```bash
 `wget https://archive.apache.org/dist/maven/maven-3/3.8.7/binaries/apache-maven-3.8.7-bin.tar.gz -P /tmp`.  
    ```
@@ -77,7 +77,7 @@ Verifique a instalação executando:
 `mvn -version`.  
    ```
 
-Após seguir este guia, você deverá ter o Java JDK 22 e o Maven 3.8.7 instalados e prontos para uso em seu sistema Linux.
+Após seguir este guia, você deverá ter o Java JDK 22 e o Apache Maven 3.8.7 instalados e prontos para uso em seu sistema Linux.
 
 ---
 
