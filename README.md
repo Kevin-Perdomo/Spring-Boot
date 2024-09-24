@@ -53,7 +53,7 @@ Ou use o comando abaixo para fazer tudo em um único passo:
 1. Construa a imagem Docker:
 
    ```bash
-   docker build -t springio/spring-boot-docker
+   docker build -t springio/spring-boot-docker .
    ```
 
 2. Execute o contêiner na porta 8080:
