@@ -13,3 +13,59 @@ Este é um projeto de exemplo criado com Spring Boot. O objetivo é demonstrar a
 - JDK 22 ou superior
 - Maven 3.6 ou superior
 - Docker (opcional, para execução em contêineres)
+
+
+# Spring Boot Docker Application
+
+## Rodando Localmente
+
+### Passos:
+
+1. Execute o comando abaixo para compilar o projeto sem rodar os testes:
+
+   ```bash
+   ./mvnw package -DskipTests
+   ```
+
+2. Em seguida, rode a aplicação Spring Boot:
+
+   ```bash
+   java -jar target/spring-boot-docker-0.0.1-SNAPSHOT.jar
+   ```
+
+Ou use o comando abaixo para fazer tudo em um único passo:
+
+```bash
+./mvnw package -DskipTests && java -jar target/spring-boot-docker-0.0.1-SNAPSHOT.jar
+```
+
+---
+
+## Acesso com Spring Security
+
+- **Login:** `user`
+- **Senha:** A senha será exibida no terminal após iniciar o Spring Boot com `spring-boot-starter-security`.
+
+---
+
+## Rodando no Docker
+
+1. Construa a imagem Docker:
+
+   ```bash
+   docker build -t springio/spring-boot-docker
+   ```
+
+2. Execute o contêiner na porta 8080:
+
+   ```bash
+   docker run -p 8080:8080 springio/spring-boot-docker
+   ```
+
+3. Para parar o contêiner, você pode usar:
+
+   ```bash
+   docker stop <container_id_or_name>
+   ```
+
+   Ou simplesmente pressionar `Ctrl+C` no terminal onde o contêiner está rodando.

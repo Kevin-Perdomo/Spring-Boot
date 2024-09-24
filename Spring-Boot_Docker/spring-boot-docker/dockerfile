@@ -1,4 +1,11 @@
 FROM openjdk:22-jdk-slim
+# Utiliza a imagem base do OpenJDK 22 (versão JDK) em sua versão "slim", que é uma versão mais leve e otimizada.
+
 ARG JAR_FILE=target/*.jar
+# Define uma variável de build chamada JAR_FILE, que aponta para qualquer arquivo .jar no diretório 'target'.
+
 COPY ${JAR_FILE} app.jar
+# Copia o arquivo .jar gerado para dentro do contêiner, renomeando-o para 'app.jar'.
+
 ENTRYPOINT ["java","-jar","/app.jar"]
+# Define o ponto de entrada do contêiner, que executa o comando para rodar a aplicação Java usando o arquivo 'app.jar'.
