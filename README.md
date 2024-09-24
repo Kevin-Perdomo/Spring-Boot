@@ -46,7 +46,7 @@ Aplique as mudanças com o comando:
 
 Verifique a instalação executando:  
    ```bash
-`java -version`.  
+`java --version`.  
    ```
 
 Para instalar o Apache Maven 3.8.7, comece baixando o arquivo binário usando o comando:  
@@ -74,7 +74,7 @@ Aplique as mudanças com:
 
 Verifique a instalação executando:  
    ```bash
-`mvn -version`.  
+`mvn --version`.  
    ```
 
 Após seguir este guia, você deverá ter o Java JDK 22 e o Apache Maven 3.8.7 instalados e prontos para uso em seu sistema Linux.
