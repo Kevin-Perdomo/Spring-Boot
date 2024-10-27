@@ -34,19 +34,19 @@ Depois, extraia o arquivo baixado com:
 
 Em seguida, configure as variáveis de ambiente adicionando as linhas: 
    ```bash
-`export JAVA_HOME=/opt/jdk-22`  
-`export PATH=$JAVA_HOME/bin:$PATH`
+export JAVA_HOME=/opt/jdk-22  
+export PATH=$JAVA_HOME/bin:$PATH
    ```  
 ao final do arquivo `~/.bashrc` ou `~/.profile`.  
 
 Aplique as mudanças com o comando: 
    ```bash
-`source ~/.bashrc`  
+source ~/.bashrc  
    ```
 
 Verifique a instalação executando:  
    ```bash
-`java --version`.  
+java --version  
    ```
 
 Para instalar o Apache Maven 3.8.7, comece baixando o arquivo binário usando o comando:  
@@ -61,20 +61,20 @@ Extraia o arquivo com:
 
 Configure as variáveis de ambiente adicionando:  
    ```
-`export M2_HOME=/opt/apache-maven-3.8.7`  
-`export PATH=$M2_HOME/bin:$PATH`
+export M2_HOME=/opt/apache-maven-3.8.7  
+export PATH=$M2_HOME/bin:$PATH
    ```
 ao final do arquivo `~/.bashrc` ou `~/.profile`.
 
 
 Aplique as mudanças com:  
    ```bash
-`source ~/.bashrc`  
+source ~/.bashrc  
    ```
 
 Verifique a instalação executando:  
    ```bash
-`mvn --version`.  
+mvn --version  
    ```
 
 Após seguir este guia, você deverá ter o Java JDK 22 e o Apache Maven 3.8.7 instalados e prontos para uso em seu sistema Linux.
