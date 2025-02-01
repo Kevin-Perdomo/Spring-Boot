@@ -24,12 +24,12 @@ Este guia fornece instruções para baixar e instalar o Java JDK 22 e o Apache M
 
 Para instalar o Java JDK 22, comece baixando o arquivo binário com o comando:  
    ```bash
-`wget https://download.oracle.com/java/22/latest/jdk-22_linux-x64_bin.tar.gz -P /tmp`.  
+wget https://download.oracle.com/java/22/latest/jdk-22_linux-x64_bin.tar.gz -P /tmp  
    ```
 
 Depois, extraia o arquivo baixado com:  
    ```bash
-`sudo tar -xzf /tmp/jdk-22_linux-x64_bin.tar.gz -C /opt`.  
+sudo tar -xzf /tmp/jdk-22_linux-x64_bin.tar.gz -C /opt
    ```
 
 Em seguida, configure as variáveis de ambiente adicionando as linhas: 
@@ -51,12 +51,12 @@ java --version
 
 Para instalar o Apache Maven 3.8.7, comece baixando o arquivo binário usando o comando:  
    ```bash
-`wget https://archive.apache.org/dist/maven/maven-3/3.8.7/binaries/apache-maven-3.8.7-bin.tar.gz -P /tmp`.  
+wget https://archive.apache.org/dist/maven/maven-3/3.8.7/binaries/apache-maven-3.8.7-bin.tar.gz -P /tmp  
    ```
 
 Extraia o arquivo com:
    ```
-`sudo tar xf /tmp/apache-maven-3.8.7-bin.tar.gz -C /opt`.  
+sudo tar xf /tmp/apache-maven-3.8.7-bin.tar.gz -C /opt
    ```
 
 Configure as variáveis de ambiente adicionando:  
